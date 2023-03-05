@@ -10,4 +10,12 @@ public abstract class Vehicle implements Accelerateable{
     public int accelerate(int kmh) {
         return 0;
     }
+
+    public Vehicle(String id, String name, int velocity) {
+        this.id = id;
+        this.name = name;
+        this.velocity = velocity;
+    }
+
+
 }
