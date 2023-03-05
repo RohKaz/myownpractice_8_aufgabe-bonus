@@ -17,5 +17,10 @@ public abstract class Vehicle implements Accelerateable{
         this.velocity = velocity;
     }
 
+    public Vehicle() {
+    }
 
+    public int getVelocity() {
+        return velocity;
+    }
 }

@@ -2,6 +2,7 @@ package org.example;
 
 public interface Accelerateable {
 
-    public int accelerate(int kmh);
+    int accelerate(int kmh);
 
+    int brake(int kmh);
 }
